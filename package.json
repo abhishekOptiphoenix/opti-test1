@@ -16,7 +16,6 @@
     "dev": "frontity dev",
     "serve": "frontity serve"
   },
-  
   "homepage": "https://github.com/awsmin/f1#readme",
   "license": "GPL-2.0-or-later",
   "author": "Awsm Innovations",
@@ -37,6 +36,7 @@
     "react-icons": "^4.3.1",
     "react-lottie": "^1.2.3",
     "react-player": "^2.10.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7",
     "react-share": "^4.4.0",
     "react-slick": "^0.26.1",
