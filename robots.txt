@@ -1,0 +1,3 @@
+Sitemap: https://new.optiphoenix.com/post-sitemap.xml
+User-agent: *
+Allow: /

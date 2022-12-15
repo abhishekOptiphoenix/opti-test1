@@ -1,0 +1,76 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@frontity/now"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/our-services(.*)",
+        "status": 301,
+        "headers": { "Location": "/cro-plan/" }
+      },
+      {
+        "src": "/methodology(.*)",
+        "status": 301,
+        "headers": { "Location": "/cro-plan/" }
+      },
+      {
+        "src": "/success-stories(.*)",
+        "status": 301,
+        "headers": { "Location": "/category/case-study/" }
+      },
+      {
+        "src": "/3-month-proof-of-concept-plan(.*)",
+        "status": 301,
+        "headers": { "Location": "/cro-plan/" }
+      },
+      {
+        "src": "/home(.*)",
+        "status": 301,
+        "headers": { "Location": "/" }
+      },
+      {
+        "src": "/home-product(.*)",
+        "status": 301,
+        "headers": { "Location": "/" }
+      },
+      {
+        "src": "/services-new(.*)",
+        "status": 301,
+        "headers": { "Location": "/cro-plan/" }
+      },
+      {
+        "src": "/services(.*)",
+        "status": 301,
+        "headers": { "Location": "/cro-plan/" }
+      },
+      {
+        "src": "/landing-page-optimization(.*)",
+        "status": 301,
+        "headers": { "Location": "/" }
+      },
+      {
+        "src": "/portfolio(.*)",
+        "status": 301,
+        "headers": { "Location": "/about-us/" }
+      },
+      {
+        "src": "/shop(.*)",
+        "status": 301,
+        "headers": { "Location": "/" }
+      },
+      {
+        "src": "/home-digital-agency(.*)",
+        "status": 301,
+        "headers": { "Location": "/" }
+      },
+      {
+        "src": "/careers(.*)",
+        "status": 301,
+        "headers": { "Location": "/jobs/" }
+      }
+    ]
+  }
